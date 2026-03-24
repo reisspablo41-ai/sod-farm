@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, MessageSquare, Clock, Globe, CheckCircle2 } from "lucide-react";
+import { Phone, Mail, MapPin, MessageSquare, Clock, Globe, CheckCircle2, Truck } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
@@ -104,9 +104,9 @@ function ContactForm() {
                 <Label htmlFor="phone" className="text-primary font-bold">Phone Number</Label>
                 <Input id="phone" name="phone" type="tel" placeholder="(555) 000-0000" required className="rounded-xl border-muted h-14" />
               </div>
-              <div className="space-y-2">
-                <Label htmlFor="zip" className="text-primary font-bold">Delivery Zip Code</Label>
-                <Input id="zip" name="zip" placeholder="34201" required className="rounded-xl border-muted h-14" />
+              <div className="space-y-4">
+                <Label htmlFor="zip" className="text-primary font-bold">Delivery Area Code</Label>
+                <Input id="zip" name="zip" placeholder="Enter Code" required className="rounded-xl border-muted h-14" />
               </div>
             </div>
             <div className="space-y-2">
@@ -175,8 +175,8 @@ export default function ContactPage() {
               <div className="bg-white/5 backdrop-blur-md p-6 rounded-3xl border border-white/10">
                 <Globe className="text-secondary mb-4" size={32} />
                 <p className="font-bold text-sm uppercase tracking-widest text-white/50 mb-1">Service Area</p>
-                <p className="text-lg font-bold">50mi Radius</p>
-                <p className="text-xs opacity-60 italic">Central FL</p>
+                <p className="text-lg font-bold">Multiple Regions</p>
+                <p className="text-xs opacity-60 italic">Check Your Zip</p>
               </div>
             </div>
           </div>
@@ -218,21 +218,14 @@ export default function ContactPage() {
               </Card>
 
               {/* Map Embed */}
-              <div className="aspect-[4/3] rounded-[40px] shadow-xl overflow-hidden relative border-8 border-white bg-slate-200 group">
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113470.435728469!2d-82.4646011!3d27.4839074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c339396e9c9c9b%3A0x88c339396e9c9c9b!2sBradenton%2C%20FL%2034201!5e0!3m2!1sen!2sus!4v1711267200000!5m2!1sen!2sus" 
-                  width="100%" 
-                  height="100%" 
-                  style={{ border: 0 }} 
-                  allowFullScreen 
-                  loading="lazy"
-                  className="grayscale hover:grayscale-0 transition-all duration-1000"
-                ></iframe>
-                <div className="absolute top-6 left-6 pointer-events-none">
-                   <div className="glass px-4 py-2 rounded-2xl text-[10px] font-black uppercase tracking-widest text-primary shadow-xl">
-                      Service Radius: 50mi
-                   </div>
-                </div>
+              <div className="aspect-[4/3] rounded-[40px] shadow-xl overflow-hidden relative border-8 border-white bg-slate-100 flex items-center justify-center p-8 text-center group">
+                 <div className="space-y-4">
+                    <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mx-auto">
+                       <Truck size={32} />
+                    </div>
+                    <h3 className="text-xl font-black text-primary uppercase italic">Fast Delivery</h3>
+                    <p className="text-sm text-muted-foreground">We harvest fresh at dawn and deliver same-day to ensure your sod arrives in peak condition.</p>
+                 </div>
               </div>
             </div>
           </div>

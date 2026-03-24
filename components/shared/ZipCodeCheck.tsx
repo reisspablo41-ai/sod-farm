@@ -50,7 +50,7 @@ export default function ZipCodeCheck() {
           <div className="relative flex-grow group">
             <Input
               type="text"
-              placeholder="Enter Zip Code"
+              placeholder="Enter Area Code"
               maxLength={5}
               value={zipCode}
               onChange={(e) => setZipCode(e.target.value.replace(/\D/g, ""))}
@@ -91,7 +91,7 @@ export default function ZipCodeCheck() {
            </div>
            <div className="flex items-center gap-2">
              <MapPin size={14} className="text-secondary" />
-             <span>50-Mile Radius from Farm</span>
+             <span>Shipping to Several Areas</span>
            </div>
         </div>
       </CardContent>

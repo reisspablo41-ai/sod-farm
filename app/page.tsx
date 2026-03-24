@@ -68,7 +68,7 @@ export default function Home() {
                 </Reveal>
                 <Reveal direction="left" delay={0.2}>
                    <p className="text-xl text-muted-foreground leading-relaxed">
-                      Every blade of grass is grown on our private acreage, specifically developed for the regional climate and soil properties.
+                      Every blade of grass is grown on our private acreage, specifically developed for your climate and soil properties.
                    </p>
                 </Reveal>
               </div>
@@ -132,14 +132,14 @@ export default function Home() {
            <div className="container mx-auto px-4 relative z-10 text-center">
               <Reveal direction="up">
                  <h2 className="text-4xl md:text-8xl font-black uppercase italic tracking-tighter mb-20 leading-none">
-                    Greening the <span className="text-secondary">Sunshine State.</span>
+                    Greening the <span className="text-secondary">Modern Landscape.</span>
                  </h2>
               </Reveal>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
                  {[
                    { label: "Sq Ft Delivered", val: "2.4M+" },
                    { label: "Happy Lawns", val: "5,000+" },
-                   { label: "Local Varieties", val: "12" },
+                   { label: "Sod Varieties", val: "12" },
                    { label: "Harvested Today", val: "42,000" }
                  ].map((stat, i) => (
                    <Reveal key={i} direction="up" delay={i * 0.1}>
@@ -166,7 +166,7 @@ export default function Home() {
                              <span className="text-glow">Status</span>
                           </h2>
                           <p className="text-xl text-muted-foreground leading-relaxed font-medium pt-4">
-                             Enter your zip code to confirm real-time availability and find your neighborhood&apos;s next harvest window.
+                             Enter your delivery code to confirm real-time availability and find your neighborhood&apos;s next harvest window.
                           </p>
                        </Reveal>
                     </div>

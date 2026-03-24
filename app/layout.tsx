@@ -16,8 +16,8 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "FreshCut Sod Farms | Farm Direct Premium Turfgrass",
-  description: "High-performance, farm-direct premium turfgrass. We harvest fresh every morning and deliver same-day across Central Florida. Order your sod today!",
-  keywords: "sod, turfgrass, Florida sod, freshcut sod, lawn replacement, Bermuda sod, St. Augustine sod, Zoysia sod",
+  description: "High-performance, farm-direct premium turfgrass. We harvest fresh every morning and deliver same-day to your door. Order your sod today!",
+  keywords: "sod, turfgrass, freshcut sod, lawn replacement, Bermuda sod, St. Augustine sod, Zoysia sod",
   openGraph: {
     title: "FreshCut Sod Farms | Farm Direct Premium Turfgrass",
     description: "Harvested fresh at dawn. Delivered same-day. The greenest lawn on the block starts here.",

@@ -14,7 +14,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Robert Henderson",
     role: "Professional Landscaper",
-    location: "Sarasota, FL",
     text: "The 'Cut at Dawn' promise isn't just marketing. The hydration levels in their Bermuda are significantly higher than any big-box supplier. My clients' lawns establish 30% faster. We've used them for over 50 residential projects this year and the quality is consistently world-class.",
     rating: 5,
     tag: "Landscaping Pros",
@@ -23,8 +22,7 @@ const ALL_TESTIMONIALS = [
   {
     name: "Sarah Jenkins",
     role: "Estate Homeowner",
-    location: "Bradenton, FL",
-    text: "I was worried about ordering sod online for our new estate, but the process was seamless. The calculator was spot on, and the delivery team placed the pallets exactly where I needed them. The grass was vibrant green and felt cool to the touch even in the Florida heat.",
+    text: "I was worried about ordering sod online for our new estate, but the process was seamless. The calculator was spot on, and the delivery team placed the pallets exactly where I needed them. The grass was vibrant green and felt cool to the touch even in the summer heat.",
     rating: 5,
     tag: "Residential",
     date: "2026-02-24"
@@ -32,7 +30,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "David Chen",
     role: "Golf Course Manager",
-    location: "Naples, FL",
     text: "Purity and consistency are critical for us. FreshCut Sod Farms delivers the highest grade turfgrass with deep root systems that thrive in our local heat. Their specialized loading process prevents the root damage we often see with traditional suppliers.",
     rating: 5,
     tag: "Commercial",
@@ -41,7 +38,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Michael Rossi",
     role: "Homeowner",
-    location: "Venice, FL",
     text: "Switched my whole front yard to their Zoysia. It's like walking on a carpet. The delivery was exactly at 9:30 AM as promised. Highly recommend for anyone who cares about their curb appeal.",
     rating: 5,
     tag: "Residential",
@@ -50,7 +46,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Amanda Smith",
     role: "Landscape Architect",
-    location: "Tampa, FL",
     text: "I specify FreshCut Sod Farms for all my premium projects. Their attention to soil compatibility is unmatched. It makes my job so much easier when the product establishes this reliably.",
     rating: 5,
     tag: "Landscaping Pros",
@@ -59,7 +54,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "James Wilson",
     role: "Property Developer",
-    location: "Orlando, FL",
     text: "Found our new permanent supplier. We needed 40 units for a new subdivision on short notice and they delivered perfection. Not a single dead patch in the entire shipment.",
     rating: 5,
     tag: "Commercial",
@@ -68,7 +62,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Elena Rodriguez",
     role: "Homeowner",
-    location: "Miami, FL",
     text: "The St. Augustine CitraBlue is stunning. My neighbors keep asking what my secret is. It handles the shade under my oak trees much better than what we had before.",
     rating: 5,
     tag: "Residential",
@@ -77,7 +70,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Marcus Thorne",
     role: "Commercial Landscaper",
-    location: "Jacksonville, FL",
     text: "The pallet quality is the best I've seen in 20 years. Uniform thickness makes installation twice as fast. Their customer service team actually knows their grass varieties.",
     rating: 5,
     tag: "Landscaping Pros",
@@ -86,7 +78,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Linda Grosse",
     role: "HOA President",
-    location: "Palm Beach, FL",
     text: "We revitalized our community common areas with their Celebration Bermuda. The durability under foot traffic is exactly what we needed for the park areas.",
     rating: 5,
     tag: "Commercial",
@@ -95,7 +86,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Kevin Park",
     role: "Homeowner",
-    location: "Fort Myers, FL",
     text: "Great experience from start to finish. The website was easy to use, and the grass arrived smelling fresh and looking incredibly healthy. It's been 2 months and it looks like a fairway.",
     rating: 5,
     tag: "Residential",
@@ -104,7 +94,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Sophia Martinez",
     role: "Luxury Home Builder",
-    location: "Boca Raton, FL",
     text: "In the luxury market, details matter. The emerald green of their Empire Zoysia provides that premium look my clients expect. Consistency is key, and they deliver every time.",
     rating: 5,
     tag: "Landscaping Pros",
@@ -113,7 +102,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Thomas Wright",
     role: "Sports Field Manager",
-    location: "Gainesville, FL",
     text: "High-performance turf for high-performance athletes. The shear strength of their sod is impressive. We've seen significantly fewer divots since switching our practice fields.",
     rating: 5,
     tag: "Commercial",
@@ -122,7 +110,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Rachel Green",
     role: "First-time Homeowner",
-    location: "Clearwater, FL",
     text: "I was intimidated by the idea of laying sod myself, but their guides and the quality of the product made it a breeze. My backyard went from dirt to paradise in one weekend.",
     rating: 5,
     tag: "Residential",
@@ -131,7 +118,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Brian O'Conner",
     role: "Landscape Maintenance",
-    location: "Jupiter, FL",
     text: "Better grass means fewer callbacks for me. Their sod is virtually weed-free, which saves my team hours of post-install maintenance. Highly recommended for pros.",
     rating: 5,
     tag: "Landscaping Pros",
@@ -140,7 +126,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Nancy Pelosi",
     role: "Estate Manager",
-    location: "Key West, FL",
     text: "Logistics to the Keys can be tricky, but they handled it perfectly. The sod arrived fresh despite the long drive and took root immediately in our salty environment.",
     rating: 5,
     tag: "Residential",
@@ -149,7 +134,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Gregory House",
     role: "Hotel Operations",
-    location: "Daytona Beach, FL",
     text: "We needed a quick turnaround for a beachfront event. They provided 15 pallets of salt-tolerant Seashore Paspalum that looked incredible and held up perfectly.",
     rating: 5,
     tag: "Commercial",
@@ -158,7 +142,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Lisa Simpson",
     role: "Environmental Consultant",
-    location: "St. Petersburg, FL",
     text: "Impressed by their sustainable growing practices. The low-water requirements of their drought-resistant varieties align perfectly with our xeriscaping goals.",
     rating: 5,
     tag: "Landscaping Pros",
@@ -167,7 +150,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Walter White",
     role: "Homeowner",
-    location: "Pensacola, FL",
     text: "The chemistry is right. You can tell they put a lot of science into their soil prep. My lawn has never looked more vibrant. It's the best on the block by far.",
     rating: 5,
     tag: "Residential",
@@ -176,7 +158,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Tony Stark",
     role: "Tech CEO",
-    location: "Malibu (Relocated to Orlando), FL",
     text: "Efficiency meets aesthetics. I automated my irrigation system, but the real star is the grass. It's resilient, beautiful, and tech-friendly (if grass can be tech-friendly).",
     rating: 5,
     tag: "Residential",
@@ -185,7 +166,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Diana Prince",
     role: "Museum Curator",
-    location: "Tallahassee, FL",
     text: "We wanted a classic, timeless look for the museum grounds. Their Floratam St. Augustine provided exactly the stately appearance we were aiming for. Exceptional service.",
     rating: 5,
     tag: "Commercial",
@@ -194,7 +174,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Arthur Curry",
     role: "Aquarium Director",
-    location: "Tampa Bay, FL",
     text: "Stands up to high moisture environments better than any other sod we've tried. The root structure is dense and healthy. Perfect for our coastal property.",
     rating: 5,
     tag: "Commercial",
@@ -203,7 +182,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Peter Parker",
     role: "Freelance Photographer",
-    location: "New York (Queens), FL Delivery",
     text: "The colors in their sod are incredible for photography. I did a shoot for a home magazine and the lawn looked so good it didn't even need retouching. Amazing quality.",
     rating: 5,
     tag: "Residential",
@@ -212,7 +190,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Bruce Wayne",
     role: "Philanthropist",
-    location: "Gotham (Manor in Ocala), FL",
     text: "Reliability is paramount. When we order for the estate, we expect the best. FreshCut Sod Farms delivers without fail. The dark green hue of their Zoysia is unmatched.",
     rating: 5,
     tag: "Residential",
@@ -221,7 +198,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Clark Kent",
     role: "Journalist",
-    location: "Metropolis (Farm in Lakeland), FL",
     text: "Solid, dependable product. It's tough, grows fast, and looks great without constant attention. Exactly what a busy reporter needs for his home base.",
     rating: 5,
     tag: "Residential",
@@ -230,7 +206,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Steve Rogers",
     role: "Veteran",
-    location: "Brooklyn (Retiring to Melbourne), FL",
     text: "Honest people, honest product. They did what they said they would, when they said they would. The grass is strong and resilient, just like it should be.",
     rating: 5,
     tag: "Residential",
@@ -239,7 +214,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Natasha Romanoff",
     role: "Private Investigator",
-    location: "Hidden Location, FL",
     text: "Discreet and efficient delivery. The sod itself is perfect for a low-profile, high-quality landscape. It established quickly and looks very natural.",
     rating: 5,
     tag: "Residential",
@@ -248,7 +222,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Wanda Maximoff",
     role: "Interior Designer",
-    location: "Westview, FL",
     text: "The lawn is the first 'room' people see. Their sod created a magical transformation of our outdoor space. It's like it appeared out of thin air, but better.",
     rating: 5,
     tag: "Residential",
@@ -257,8 +230,7 @@ const ALL_TESTIMONIALS = [
   {
     name: "Thor Odinson",
     role: "Landscape Hobbyist",
-    location: "Asgard (New Asgard, FL)",
-    text: "Tough as the gods! This grass survives the Florida sun like it's nothing. Very impressed with the resilience. Truly a product worthy of the highest praise.",
+    text: "Tough as the gods! This grass survives the summer sun like it's nothing. Very impressed with the resilience. Truly a product worthy of the highest praise.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-13"
@@ -266,7 +238,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Loki Laufeyson",
     role: "Architect",
-    location: "Varies, FL",
     text: "I appreciate the versatility. I can use their different varieties to create complex, beautiful patterns in my landscape designs. Always high quality, always reliable.",
     rating: 5,
     tag: "Landscaping Pros",
@@ -275,7 +246,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Stephen Strange",
     role: "Neurosurgeon",
-    location: "Greenwich Village (Winter Home in Naples), FL",
     text: "Precision is everything. The way they cut and harvest their sod is clearly superior. The results are aesthetically pleasing and biologically sound. Remarkable.",
     rating: 5,
     tag: "Residential",
@@ -284,7 +254,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "T'Challa",
     role: "Conservationist",
-    location: "Wakanda (Conservation Park in Miami), FL",
     text: "Respect for the earth is evident in their sod. The root systems are robust and the grass is vibrant. It's the perfect foundation for our urban greening project.",
     rating: 5,
     tag: "Commercial",
@@ -293,7 +262,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Carol Danvers",
     role: "Pilot",
-    location: "Cocoa Beach, FL",
     text: "Fast delivery, high quality. I'm often away, so I need grass that's tough and low-maintenance. This fit the bill perfectly. Looks great even after a long trip.",
     rating: 5,
     tag: "Residential",
@@ -302,7 +270,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Barry Allen",
     role: "Forensic Scientist",
-    location: "Central City (Lab in Orlando), FL",
     text: "Everything happened so fast! From ordering to delivery, it was a blur of efficiency. The grass is high-quality and took root in record time. Excellent service.",
     rating: 5,
     tag: "Residential",
@@ -311,7 +278,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Oliver Queen",
     role: "Business Owner",
-    location: "Star City (Office in Miami), FL",
     text: "We needed our corporate office to look sharp. FreshCut Sod Farms hit the mark perfectly. Professional service and a product that really stands out.",
     rating: 5,
     tag: "Commercial",
@@ -320,7 +286,6 @@ const ALL_TESTIMONIALS = [
   {
     name: "Hal Jordan",
     role: "Test Pilot",
-    location: "Coast City (Base in Pensacola), FL",
     text: "Clear and bright green. It's a great product that stands up to the elements. I'm very happy with how it turned out. Definitely worth the investment.",
     rating: 5,
     tag: "Residential",
@@ -390,7 +355,7 @@ export default function TestimonialsPage() {
           </Reveal>
           <Reveal direction="up" delay={0.2}>
              <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-medium">
-                From luxury estates to championship golf courses, we provide the foundation for Florida&apos;s most beautiful landscapes.
+                From luxury estates to championship golf courses, we provide the foundation for the most beautiful landscapes.
              </p>
           </Reveal>
         </section>

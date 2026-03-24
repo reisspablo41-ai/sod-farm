@@ -135,7 +135,7 @@ function customerEmailHtml(data: {
           <td style="background:#1a3a2a;padding:32px 48px;border-radius:0 0 24px 24px;text-align:center;">
             <p style="margin:0 0 8px;font-size:13px;font-weight:700;color:#d4a853;font-style:italic;">FreshCut Sod Farms</p>
             <p style="margin:0 0 4px;font-size:12px;color:rgba(255,255,255,0.4);">Harvested fresh. Delivered same-day.</p>
-            <p style="margin:0;font-size:11px;color:rgba(255,255,255,0.25);">freshcutsodfarms.com &nbsp;|&nbsp; Central Florida</p>
+            <p style="margin:0;font-size:11px;color:rgba(255,255,255,0.25);">freshcutsodfarms.com</p>
           </td>
         </tr>
 

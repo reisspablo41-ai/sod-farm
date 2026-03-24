@@ -33,26 +33,19 @@ export default function ShippingPage() {
                  <div className="lg:w-1/2 space-y-8">
                     <h2 className="text-3xl md:text-5xl font-black text-primary italic uppercase tracking-tight">Check Your Zone</h2>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                       Our primary delivery radius covers a 50-mile circle from our farm in SOD Valley, FL. Enter your zip code to confirm availability and see your next delivery window.
+                       We ship to several areas. Simply input your zip code to check if your zip code is part of our service area.
                     </p>
                     <div className="p-8 bg-muted/50 rounded-3xl border border-muted">
                        <ZipCodeCheck />
                     </div>
                  </div>
-                 <div className="lg:w-1/2 aspect-square rounded-[40px] shadow-xl overflow-hidden relative border-8 border-muted bg-slate-200 group">
-                    <iframe 
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113470.435728469!2d-82.4646011!3d27.4839074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c339396e9c9c9b%3A0x88c339396e9c9c9b!2sBradenton%2C%20FL%2034201!5e0!3m2!1sen!2sus!4v1711267200000!5m2!1sen!2sus" 
-                      width="100%" 
-                      height="100%" 
-                      style={{ border: 0 }} 
-                      allowFullScreen 
-                      loading="lazy"
-                      className="grayscale hover:grayscale-0 transition-all duration-1000"
-                    ></iframe>
-                    <div className="absolute top-6 left-6 pointer-events-none">
-                       <div className="glass px-4 py-2 rounded-2xl text-[10px] font-black uppercase tracking-widest text-primary shadow-xl">
-                          Service Radius: 50mi
+                 <div className="lg:w-1/2 aspect-square rounded-[40px] shadow-xl overflow-hidden relative border-8 border-muted bg-slate-100 flex items-center justify-center p-12 text-center group">
+                    <div className="space-y-6">
+                       <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center text-primary mx-auto">
+                          <Truck size={40} />
                        </div>
+                       <h3 className="text-2xl font-black text-primary uppercase italic">Ready For Arrival</h3>
+                       <p className="text-muted-foreground">Our fleet is equipped with specialized forklifts to ensure precision placement on your property.</p>
                     </div>
                  </div>
               </CardContent>
@@ -110,14 +103,14 @@ export default function ShippingPage() {
                     <CardContent className="p-0 space-y-8">
                        <h3 className="text-3xl font-black italic uppercase tracking-tighter">Delivery Fees</h3>
                        <div className="space-y-4">
-                          <div className="flex justify-between items-center border-b border-black/10 pb-4">
-                             <p className="font-bold">Zone A (0-20 Miles)</p>
-                             <p className="font-black">$125.00</p>
-                          </div>
-                          <div className="flex justify-between items-center border-b border-black/10 pb-4">
-                             <p className="font-bold">Zone B (20-50 Miles)</p>
-                             <p className="font-black">$175.00</p>
-                          </div>
+                           <div className="flex justify-between items-center border-b border-black/10 pb-4">
+                              <p className="font-bold">Local Delivery</p>
+                              <p className="font-black">$125.00</p>
+                           </div>
+                           <div className="flex justify-between items-center border-b border-black/10 pb-4">
+                              <p className="font-bold">Extended Delivery</p>
+                              <p className="font-black">$175.00</p>
+                           </div>
                           <div className="flex justify-between items-center">
                              <p className="font-bold">4+ Pallets</p>
                              <p className="font-black text-primary uppercase">FREE</p>

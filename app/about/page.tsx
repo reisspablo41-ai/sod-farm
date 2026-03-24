@@ -141,7 +141,7 @@ export default function AboutPage() {
                    { name: "John Miller III", role: "Master Harvester", bio: "Leading our harvest team for over 25 years with a focus on dawn timing.", image: "https://images.pexels.com/photos/5754935/pexels-photo-5754935.jpeg" },
                    { name: "Sarah Miller", role: "Logistics Director", bio: "Architecture background specialized in farm-to-door delivery systems.", image: "https://images.pexels.com/photos/6194969/pexels-photo-6194969.jpeg" },
                    { name: "Mike Evans", role: "Hydration Expert", bio: "Ph.D. in Horticulture, ensuring peak root moisture for every pallet.", image: "https://images.pexels.com/photos/7472470/pexels-photo-7472470.jpeg" },
-                   { name: "Dave Roberts", role: "Fleet Captain", bio: "Managing 50+ specialized delivery units across the tri-state area.", image: "https://images.pexels.com/photos/5231239/pexels-photo-5231239.jpeg" }
+                   { name: "Dave Roberts", role: "Fleet Captain", bio: "Managing 50+ specialized delivery units across our service regions.", image: "https://images.pexels.com/photos/5231239/pexels-photo-5231239.jpeg" }
                  ].map((member, i) => (
                   <Reveal key={member.name} direction="up" delay={i * 0.1}>
                     <Card className="rounded-[4rem] border-none shadow-xl hover:shadow-2xl transition-all duration-700 bg-muted/20 group overflow-hidden">

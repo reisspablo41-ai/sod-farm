@@ -136,9 +136,9 @@ export default function ShopPage() {
                  <div className="bg-secondary p-12 rounded-[3.5rem] text-secondary-foreground space-y-6 shadow-2xl relative overflow-hidden group">
                    <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform duration-1000"></div>
                    <h3 className="text-4xl font-black italic uppercase tracking-tighter leading-none">FREE <br />DELIVERY</h3>
-                   <p className="text-sm font-bold opacity-70 leading-relaxed">On all orders of 4+ pallets within our 50-mile farm radius.</p>
+                   <p className="text-sm font-bold opacity-70 leading-relaxed">On all orders of 4+ pallets within our delivery zones.</p>
                    <Link href="/shipping" className="text-[10px] font-black uppercase tracking-widest flex items-center gap-2 hover:bg-black/5 p-2 pr-4 rounded-full transition-all w-fit">
-                     View Zone Map <ArrowRight size={14} />
+                     View Delivery Info <ArrowRight size={14} />
                    </Link>
                  </div>
               </Reveal>
