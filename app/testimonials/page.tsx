@@ -33,7 +33,7 @@ const ALL_TESTIMONIALS = [
     name: "David Chen",
     role: "Golf Course Manager",
     location: "Naples, FL",
-    text: "Purity and consistency are critical for us. Fresh Cut Sod delivers the highest grade turfgrass with deep root systems that thrive in our local heat. Their specialized loading process prevents the root damage we often see with traditional suppliers.",
+    text: "Purity and consistency are critical for us. FreshCut Sod Farms delivers the highest grade turfgrass with deep root systems that thrive in our local heat. Their specialized loading process prevents the root damage we often see with traditional suppliers.",
     rating: 5,
     tag: "Commercial",
     date: "2025-09-15"
@@ -51,7 +51,7 @@ const ALL_TESTIMONIALS = [
     name: "Amanda Smith",
     role: "Landscape Architect",
     location: "Tampa, FL",
-    text: "I specify Fresh Cut Sod for all my premium projects. Their attention to soil compatibility is unmatched. It makes my job so much easier when the product establishes this reliably.",
+    text: "I specify FreshCut Sod Farms for all my premium projects. Their attention to soil compatibility is unmatched. It makes my job so much easier when the product establishes this reliably.",
     rating: 5,
     tag: "Landscaping Pros",
     date: "2026-01-20"
@@ -213,7 +213,7 @@ const ALL_TESTIMONIALS = [
     name: "Bruce Wayne",
     role: "Philanthropist",
     location: "Gotham (Manor in Ocala), FL",
-    text: "Reliability is paramount. When we order for the estate, we expect the best. Fresh Cut Sod delivers without fail. The dark green hue of their Zoysia is unmatched.",
+    text: "Reliability is paramount. When we order for the estate, we expect the best. FreshCut Sod Farms delivers without fail. The dark green hue of their Zoysia is unmatched.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-07"
@@ -312,7 +312,7 @@ const ALL_TESTIMONIALS = [
     name: "Oliver Queen",
     role: "Business Owner",
     location: "Star City (Office in Miami), FL",
-    text: "We needed our corporate office to look sharp. Fresh Cut Sod hit the mark perfectly. Professional service and a product that really stands out.",
+    text: "We needed our corporate office to look sharp. FreshCut Sod Farms hit the mark perfectly. Professional service and a product that really stands out.",
     rating: 5,
     tag: "Commercial",
     date: "2026-03-06"

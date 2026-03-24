@@ -46,7 +46,7 @@ export default function AboutPage() {
               <Reveal direction="up" delay={0.2}>
                  <div className="space-y-8">
                     <p className="text-xl text-muted-foreground leading-relaxed">
-                       Fresh Cut Sod was founded in 1978 with a simple realization: the best turf doesn&apos;t come from a warehouse. It comes from soil that has been cared for across generations.
+                       FreshCut Sod Farms was founded in 1978 with a simple realization: the best turf doesn&apos;t come from a warehouse. It comes from soil that has been cared for across generations.
                     </p>
                     <p className="text-xl text-muted-foreground leading-relaxed">
                        Originally a small family operation, we&apos;ve expanded our acreage while maintaining the strict quality standards that made us famous. Every pallet is inspected for root density and hydration before it ever touches a truck.
@@ -89,7 +89,7 @@ export default function AboutPage() {
         {/* Core Values */}
         <section className="section-padding bg-primary text-white overflow-hidden relative">
            <div className="container mx-auto px-4">
-              <h2 className="text-4xl md:text-8xl font-black text-center mb-24 italic uppercase tracking-tighter">The Fresh Cut <span className="text-secondary">Pillars</span></h2>
+              <h2 className="text-4xl md:text-8xl font-black text-center mb-24 italic uppercase tracking-tighter">The FreshCut <span className="text-secondary">Pillars</span></h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
                 {[
                   { 

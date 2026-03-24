@@ -15,8 +15,17 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Fresh Cut Sod | Farm Direct Premium Turfgrass",
-  description: "High-performance, SEO-optimized e-commerce platform for selling turfgrass directly from the farm to consumers and landscapers.",
+  title: "FreshCut Sod Farms | Farm Direct Premium Turfgrass",
+  description: "High-performance, farm-direct premium turfgrass. We harvest fresh every morning and deliver same-day across Central Florida. Order your sod today!",
+  keywords: "sod, turfgrass, Florida sod, freshcut sod, lawn replacement, Bermuda sod, St. Augustine sod, Zoysia sod",
+  openGraph: {
+    title: "FreshCut Sod Farms | Farm Direct Premium Turfgrass",
+    description: "Harvested fresh at dawn. Delivered same-day. The greenest lawn on the block starts here.",
+    type: "website",
+    locale: "en_US",
+    url: "https://freshcutsodfarms.com",
+    siteName: "FreshCut Sod Farms",
+  },
 };
 
 export default function RootLayout({

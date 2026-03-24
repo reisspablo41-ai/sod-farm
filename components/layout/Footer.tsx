@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="w-full bg-primary text-primary-foreground pt-16 pb-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="space-y-4">
-          <h3 className="text-xl font-bold tracking-tight">FRESH CUT <span className="text-secondary">SOD</span></h3>
+          <h3 className="text-xl font-bold tracking-tight">FRESHCUT <span className="text-secondary">SOD FARMS</span></h3>
           <p className="text-primary-foreground/80 text-sm leading-relaxed">
             Direct from the farm to your lawn. We specialize in high-performance turfgrass harvested at dawn and delivered fresh to your door.
           </p>
@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
 
       <div className="container mx-auto px-4 mt-16 pt-8 border-t border-primary-foreground/10 text-center text-xs text-primary-foreground/60">
-        <p>&copy; {new Date().getFullYear()} Fresh Cut Sod Farm. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} FreshCut Sod Farms. All rights reserved.</p>
       </div>
     </footer>
   );

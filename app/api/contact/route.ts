@@ -3,8 +3,8 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const FROM_CUSTOMER = "Fresh Cut Sod <contact@freshcutsodfarms.com>";
-const FROM_ADMIN = "Fresh Cut Sod <hello@freshcutsodfarms.com>";
+const FROM_CUSTOMER = "FreshCut Sod Farms <contact@freshcutsodfarms.com>";
+const FROM_ADMIN = "FreshCut Sod Farms <hello@freshcutsodfarms.com>";
 const ADMIN_EMAIL = "contact@freshcutsodfarms.com";
 
 // ── Branded confirmation email sent to the customer ───────────────────────────
@@ -36,7 +36,7 @@ function customerEmailHtml(data: {
           <td style="background:#1a3a2a;border-radius:24px 24px 0 0;padding:40px 48px;text-align:center;">
             <p style="margin:0 0 8px;font-size:11px;font-weight:900;letter-spacing:0.35em;text-transform:uppercase;color:#d4a853;opacity:0.8;">Farm Direct</p>
             <h1 style="margin:0;font-size:36px;font-weight:900;font-style:italic;text-transform:uppercase;letter-spacing:-0.03em;color:#ffffff;line-height:1.1;">
-              FRESH CUT <span style="color:#d4a853;">SOD</span>
+              FRESHCUT <span style="color:#d4a853;">SOD</span>
             </h1>
             <p style="margin:12px 0 0;font-size:12px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.2em;font-weight:700;">freshcutsodfarms.com</p>
           </td>
@@ -133,7 +133,7 @@ function customerEmailHtml(data: {
         <!-- Footer -->
         <tr>
           <td style="background:#1a3a2a;padding:32px 48px;border-radius:0 0 24px 24px;text-align:center;">
-            <p style="margin:0 0 8px;font-size:13px;font-weight:700;color:#d4a853;font-style:italic;">Fresh Cut Sod Farms</p>
+            <p style="margin:0 0 8px;font-size:13px;font-weight:700;color:#d4a853;font-style:italic;">FreshCut Sod Farms</p>
             <p style="margin:0 0 4px;font-size:12px;color:rgba(255,255,255,0.4);">Harvested fresh. Delivered same-day.</p>
             <p style="margin:0;font-size:11px;color:rgba(255,255,255,0.25);">freshcutsodfarms.com &nbsp;|&nbsp; Central Florida</p>
           </td>
@@ -158,7 +158,7 @@ function adminEmailText(data: {
   sqft?: string;
 }) {
   const lines = [
-    `New ${data.variety || data.sqft ? "Quote Request" : "Inquiry"} — Fresh Cut Sod Farms`,
+    `New ${data.variety || data.sqft ? "Quote Request" : "Inquiry"} — FreshCut Sod Farms`,
     ``,
     `Name: ${data.name}`,
     `Email: ${data.email}`,
@@ -203,7 +203,7 @@ export async function POST(request: Request) {
         to: email,
         subject: variety || sqft
           ? `Your Sod Quote Request — We'll Be In Touch Soon`
-          : `We Received Your Message — Fresh Cut Sod Farms`,
+          : `We Received Your Message — FreshCut Sod Farms`,
         html: customerEmailHtml({ name, variety, format, sqft, message }),
       }),
     ]);

@@ -36,7 +36,7 @@ export default function Navbar() {
                <span className="font-black italic text-xl">FC</span>
             </div>
             <span className="text-xl font-black text-primary italic uppercase tracking-tighter">
-              Fresh Cut <span className="text-secondary-foreground font-light">Sod</span>
+              FreshCut <span className="text-secondary-foreground font-light">Sod Farms</span>
             </span>
           </Link>
 

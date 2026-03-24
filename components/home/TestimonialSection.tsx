@@ -23,7 +23,7 @@ const TESTIMONIALS = [
   {
     name: "David Chen",
     role: "Golf Course Manager",
-    text: "Purity and consistency are critical for us. Fresh Cut Sod delivers the highest grade turfgrass with deep root systems that thrive in our local heat.",
+    text: "Purity and consistency are critical for us. FreshCut Sod Farms delivers the highest grade turfgrass with deep root systems that thrive in our local heat.",
     rating: 5,
     tag: "Commercial"
   }
