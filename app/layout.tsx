@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Roboto, Geist } from "next/font/google";
+import Script from "next/script";
+import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
-import { cn } from "@/lib/utils";
-
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const inter = Inter({
   variable: "--font-inter",
@@ -29,9 +27,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", inter.variable, roboto.variable, "font-sans", geist.variable)}
+      className={`${inter.variable} ${roboto.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col font-sans">{children}</body>
+      <body className="min-h-full flex flex-col font-sans">
+        {children}
+        <Script src="//code.jivosite.com/widget/X96g5goQJR" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }
