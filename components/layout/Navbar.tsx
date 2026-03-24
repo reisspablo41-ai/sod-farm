@@ -1,4 +1,4 @@
-"use client";
+"use client"; // force-refresh-1
 
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
@@ -76,7 +76,7 @@ export default function Navbar() {
         isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"
       )}>
         <div className="flex flex-col items-center justify-center h-full gap-12 p-8">
-           {["Shop", "Shipping", "About", "Testimonial", "Contact"].map((item) => (
+           {["Shop", "Shipping", "About", "Testimonials", "Contact"].map((item) => (
              <Link 
                key={item} 
                href={item === "Shop" ? "/shop" : `/${item.toLowerCase()}`}
