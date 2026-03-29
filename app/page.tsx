@@ -166,7 +166,7 @@ export default function Home() {
                              <span className="text-glow">Status</span>
                           </h2>
                           <p className="text-xl text-muted-foreground leading-relaxed font-medium pt-4">
-                             Enter your delivery code to confirm real-time availability and find your neighborhood&apos;s next harvest window.
+                             Enter your delivery code to confirm real-time availability and find your neighborhood's next harvest window.
                           </p>
                        </Reveal>
                     </div>

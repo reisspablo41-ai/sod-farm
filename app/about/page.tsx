@@ -24,7 +24,7 @@ export default function AboutPage() {
               </Reveal>
               <Reveal direction="up" delay={0.2}>
                  <p className="text-xl md:text-3xl opacity-60 max-w-3xl mx-auto leading-relaxed font-medium italic">
-                    From a single family acre to a regional leader, our commitment to &quot;Dawn-Cut&quot; quality is the heart of every lawn we grow.
+                    From a single family acre to a regional leader, our commitment to "Dawn-Cut" quality is the heart of every lawn we grow.
                  </p>
               </Reveal>
            </div>
@@ -46,10 +46,10 @@ export default function AboutPage() {
               <Reveal direction="up" delay={0.2}>
                  <div className="space-y-8">
                     <p className="text-xl text-muted-foreground leading-relaxed">
-                       FreshCut Sod Farms was founded in 1978 with a simple realization: the best turf doesn&apos;t come from a warehouse. It comes from soil that has been cared for across generations.
+                       FreshCut Sod Farms was founded in 1978 with a simple realization: the best turf doesn't come from a warehouse. It comes from soil that has been cared for across generations.
                     </p>
                     <p className="text-xl text-muted-foreground leading-relaxed">
-                       Originally a small family operation, we&apos;ve expanded our acreage while maintaining the strict quality standards that made us famous. Every pallet is inspected for root density and hydration before it ever touches a truck.
+                       Originally a small family operation, we've expanded our acreage while maintaining the strict quality standards that made us famous. Every pallet is inspected for root density and hydration before it ever touches a truck.
                     </p>
                  </div>
               </Reveal>
@@ -105,7 +105,7 @@ export default function AboutPage() {
                   { 
                     icon: <Heart size={48} className="text-secondary" />, 
                     title: "Customer Support", 
-                    desc: "You aren&apos;t just buying grass; you&apos;re gaining a lifetime partner in lawn care and horticultural expertise." 
+                    desc: "You aren't just buying grass; you're gaining a lifetime partner in lawn care and horticultural expertise." 
                   }
                 ].map((item, idx) => (
                   <Reveal key={idx} direction="up" delay={idx * 0.2}>

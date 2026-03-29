@@ -45,7 +45,7 @@ export default function StorySection() {
                   <span className="text-glow">To Property.</span>
                </h2>
                <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-                  Traditional sod retailers store grass on concrete for days. We operate a zero-inventory logistics model. Your grass is still growing in our soil while you&apos;re getting your morning coffee.
+                  Traditional sod retailers store grass on concrete for days. We operate a zero-inventory logistics model. Your grass is still growing in our soil while you're getting your morning coffee.
                </p>
             </Reveal>
 

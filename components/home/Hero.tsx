@@ -64,7 +64,7 @@ export default function Hero() {
             <Reveal direction="up" delay={0.6}>
               <div className="space-y-12">
                 <p className="text-xl md:text-2xl text-white/70 leading-relaxed font-medium">
-                  We deliver zero-shelf-time, high-hydration sod directly to your property within hours of cutting. Your lawn doesn&apos;t wait, and neither do we.
+                  We deliver zero-shelf-time, high-hydration sod directly to your property within hours of cutting. Your lawn doesn't wait, and neither do we.
                 </p>
                 
                 <div className="flex flex-wrap gap-6 items-center">

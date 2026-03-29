@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     url: "https://freshcutsodfarms.com",
     siteName: "FreshCut Sod Farms",
   },
+  verification: {
+    google: "WYHNs6d7LIzeh_f2ZS8c1NfbwBVIjzn4IOS-5vp5Yng",
+  },
 };
 
 export default function RootLayout({

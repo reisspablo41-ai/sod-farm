@@ -156,7 +156,7 @@ export default function ContactPage() {
                 Get In <span className="text-secondary">Touch</span>
               </h1>
               <p className="text-xl opacity-80 leading-relaxed max-w-lg">
-                Question about varieties? Need a bulk quote? We&apos;re here to help you get the greenest lawn on the block.
+                Question about varieties? Need a bulk quote? We're here to help you get the greenest lawn on the block.
               </p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
                 <Button variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-6 rounded-2xl font-bold flex items-center gap-2 h-auto text-lg transition-transform hover:scale-105">
