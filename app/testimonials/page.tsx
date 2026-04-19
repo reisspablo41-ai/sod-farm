@@ -21,18 +21,18 @@ const ALL_TESTIMONIALS = [
   },
   {
     name: "Sarah Jenkins",
-    role: "Estate Homeowner",
-    text: "I was worried about ordering sod online for our new estate, but the process was seamless. The calculator was spot on, and the delivery team placed the pallets exactly where I needed them. The grass was vibrant green and felt cool to the touch even in the summer heat.",
+    role: "Homeowner",
+    text: "I was worried about ordering sod online for our new home, but the process was seamless. The calculator was spot on, and the delivery team placed the pallets exactly where I needed them. The grass was vibrant green and felt cool to the touch even in the summer heat.",
     rating: 5,
     tag: "Residential",
     date: "2026-02-24"
   },
   {
     name: "David Chen",
-    role: "Golf Course Manager",
-    text: "Purity and consistency are critical for us. FreshCut Sod Farms delivers the highest grade turfgrass with deep root systems that thrive in our local heat. Their specialized loading process prevents the root damage we often see with traditional suppliers.",
+    role: "Landlord",
+    text: "I manage several rental properties and curb appeal is everything for attracting good tenants. FreshCut Sod Farms delivers consistent quality every time, and the sod establishes fast even with minimal irrigation.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2025-09-15"
   },
   {
@@ -53,10 +53,10 @@ const ALL_TESTIMONIALS = [
   },
   {
     name: "James Wilson",
-    role: "Property Developer",
-    text: "Found our new permanent supplier. We needed 40 units for a new subdivision on short notice and they delivered perfection. Not a single dead patch in the entire shipment.",
+    role: "Landlord",
+    text: "I own five rental homes and FreshCut has become my go-to supplier. Needed 40 pallets on short notice for a property turnover and they came through perfectly — not a single dead patch.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-03-15"
   },
   {
@@ -76,11 +76,11 @@ const ALL_TESTIMONIALS = [
     date: "2026-03-08"
   },
   {
-    name: "Linda Grosse",
-    role: "HOA President",
-    text: "We revitalized our community common areas with their Celebration Bermuda. The durability under foot traffic is exactly what we needed for the park areas.",
+    name: "Linda Gross",
+    role: "Landlord",
+    text: "Between tenant turnovers I always refresh the lawn. FreshCut makes it easy to order exactly what I need without overspending. My tenants always comment on how nice the yard looks when they move in.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-02-28"
   },
   {
@@ -93,18 +93,18 @@ const ALL_TESTIMONIALS = [
   },
   {
     name: "Sophia Martinez",
-    role: "Luxury Home Builder",
-    text: "In the luxury market, details matter. The emerald green of their Empire Zoysia provides that premium look my clients expect. Consistency is key, and they deliver every time.",
+    role: "Homeowner",
+    text: "We renovated our entire backyard and the sod was the finishing touch. The emerald green tied everything together. Neighbors have been stopping to ask who did our lawn.",
     rating: 5,
-    tag: "Landscaping Pros",
+    tag: "Residential",
     date: "2026-03-18"
   },
   {
-    name: "Thomas Wright",
-    role: "Sports Field Manager",
-    text: "High-performance turf for high-performance athletes. The shear strength of their sod is impressive. We've seen significantly fewer divots since switching our practice fields.",
+    name: "Tyler Charles",
+    role: "Landlord",
+    text: "First impressions matter when you're renting out a property. A fresh lawn between tenants makes the home show better and rent faster. FreshCut has been reliable every single time.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-02-10"
   },
   {
@@ -124,169 +124,169 @@ const ALL_TESTIMONIALS = [
     date: "2026-03-20"
   },
   {
-    name: "Nancy Pelosi",
-    role: "Estate Manager",
-    text: "Logistics to the Keys can be tricky, but they handled it perfectly. The sod arrived fresh despite the long drive and took root immediately in our salty environment.",
+    name: "Nancy Pellegrino",
+    role: "Landlord",
+    text: "I own three properties in South Florida and the lawns always take a beating. FreshCut's sod holds up through heavy foot traffic better than anything else I've tried.",
     rating: 5,
     tag: "Residential",
     date: "2025-11-20"
   },
   {
-    name: "Gregory House",
-    role: "Hotel Operations",
-    text: "We needed a quick turnaround for a beachfront event. They provided 15 pallets of salt-tolerant Seashore Paspalum that looked incredible and held up perfectly.",
+    name: "Greg Harrison",
+    role: "Homeowner",
+    text: "We wanted the backyard ready before summer so the kids would have somewhere to play. They delivered ahead of schedule and the grass was perfect. Still looks brand new two months later.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-03-14"
   },
   {
-    name: "Lisa Simpson",
-    role: "Environmental Consultant",
-    text: "Impressed by their sustainable growing practices. The low-water requirements of their drought-resistant varieties align perfectly with our xeriscaping goals.",
+    name: "Lisa Simmons",
+    role: "Homeowner",
+    text: "We went with their drought-resistant Bermuda after dealing with high water bills. It's been a game changer — looks great and our irrigation costs dropped noticeably.",
     rating: 5,
-    tag: "Landscaping Pros",
+    tag: "Residential",
     date: "2026-02-05"
   },
   {
-    name: "Walter White",
+    name: "Walter Briggs",
     role: "Homeowner",
-    text: "The chemistry is right. You can tell they put a lot of science into their soil prep. My lawn has never looked more vibrant. It's the best on the block by far.",
+    text: "Did a full front yard replacement after a rough winter. The sod arrived in great condition, installation went smoothly, and it took root fast. Thick and even all the way through.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-11"
   },
   {
-    name: "Tony Stark",
-    role: "Tech CEO",
-    text: "Efficiency meets aesthetics. I automated my irrigation system, but the real star is the grass. It's resilient, beautiful, and tech-friendly (if grass can be tech-friendly).",
+    name: "Anthony Mercer",
+    role: "Homeowner",
+    text: "Set up an automatic irrigation system and paired it with their Zoysia. Yard basically takes care of itself now. Beautiful, resilient grass that looks great year round.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-23"
   },
   {
-    name: "Diana Prince",
-    role: "Museum Curator",
-    text: "We wanted a classic, timeless look for the museum grounds. Their Floratam St. Augustine provided exactly the stately appearance we were aiming for. Exceptional service.",
+    name: "Diana Pryor",
+    role: "Homeowner",
+    text: "We wanted a classic, timeless look for our front yard. Their Floratam St. Augustine delivered exactly that — thick, even, and lush. Exceptional service from quote to delivery.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-01-30"
   },
   {
-    name: "Arthur Curry",
-    role: "Aquarium Director",
-    text: "Stands up to high moisture environments better than any other sod we've tried. The root structure is dense and healthy. Perfect for our coastal property.",
+    name: "Arthur Perry",
+    role: "Landlord",
+    text: "I manage a rental duplex and needed something tough that tenants' kids could play on without destroying it. The Bermuda has held up great all season without needing constant care.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-02-15"
   },
   {
-    name: "Peter Parker",
-    role: "Freelance Photographer",
-    text: "The colors in their sod are incredible for photography. I did a shoot for a home magazine and the lawn looked so good it didn't even need retouching. Amazing quality.",
+    name: "Pete Larson",
+    role: "Homeowner",
+    text: "My yard photographs beautifully now. I listed my home last month and the realtor said the lawn was one of the best she'd seen in the neighborhood. Made a real difference.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-19"
   },
   {
-    name: "Bruce Wayne",
-    role: "Philanthropist",
-    text: "Reliability is paramount. When we order for the estate, we expect the best. FreshCut Sod Farms delivers without fail. The dark green hue of their Zoysia is unmatched.",
+    name: "Brad Walsh",
+    role: "Homeowner",
+    text: "Reliability is what matters. We order for our property every couple of years and FreshCut never disappoints. The dark green of their Zoysia is consistently beautiful.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-07"
   },
   {
-    name: "Clark Kent",
-    role: "Journalist",
-    text: "Solid, dependable product. It's tough, grows fast, and looks great without constant attention. Exactly what a busy reporter needs for his home base.",
+    name: "Craig Matthews",
+    role: "Homeowner",
+    text: "Solid, dependable product. It's tough, grows fast, and looks great without constant attention. Exactly what a busy homeowner needs.",
     rating: 5,
     tag: "Residential",
     date: "2026-02-20"
   },
   {
-    name: "Steve Rogers",
-    role: "Veteran",
-    text: "Honest people, honest product. They did what they said they would, when they said they would. The grass is strong and resilient, just like it should be.",
+    name: "Steven Aldridge",
+    role: "Homeowner",
+    text: "Straightforward process, honest people, strong product. They did what they said they would, when they said they would. That's all you can ask for.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-16"
   },
   {
-    name: "Natasha Romanoff",
-    role: "Private Investigator",
-    text: "Discreet and efficient delivery. The sod itself is perfect for a low-profile, high-quality landscape. It established quickly and looks very natural.",
+    name: "Natalie Romano",
+    role: "Homeowner",
+    text: "Delivery was easy to coordinate and the sod looked perfect straight off the pallet. It established quickly and blends in naturally, like it's been there for years.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-03"
   },
   {
-    name: "Wanda Maximoff",
-    role: "Interior Designer",
-    text: "The lawn is the first 'room' people see. Their sod created a magical transformation of our outdoor space. It's like it appeared out of thin air, but better.",
+    name: "Wendy Maxwell",
+    role: "Homeowner",
+    text: "The lawn is the first thing people see when they pull up to our house. FreshCut completely transformed our curb appeal. It's like a whole new home from the street.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-21"
   },
   {
-    name: "Thor Odinson",
-    role: "Landscape Hobbyist",
-    text: "Tough as the gods! This grass survives the summer sun like it's nothing. Very impressed with the resilience. Truly a product worthy of the highest praise.",
+    name: "Tom Hensley",
+    role: "Homeowner",
+    text: "Put in about 1,200 sq ft over a weekend with a couple of friends. Grass was in great shape off the truck and easy to lay. Three weeks later it looks like it's always been there.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-13"
   },
   {
-    name: "Loki Laufeyson",
-    role: "Architect",
-    text: "I appreciate the versatility. I can use their different varieties to create complex, beautiful patterns in my landscape designs. Always high quality, always reliable.",
+    name: "Logan Lawrence",
+    role: "Homeowner",
+    text: "They recommended a variety based on my soil and shade conditions and it was the right call. Dense, uniform, green all season — way better than what we'd had before.",
     rating: 5,
-    tag: "Landscaping Pros",
+    tag: "Residential",
     date: "2026-03-09"
   },
   {
-    name: "Stephen Strange",
-    role: "Neurosurgeon",
-    text: "Precision is everything. The way they cut and harvest their sod is clearly superior. The results are aesthetically pleasing and biologically sound. Remarkable.",
+    name: "Stephen Grant",
+    role: "Homeowner",
+    text: "My wife did all the research and picked FreshCut. I handled the install. We're both very happy with it. The sod was fresh and easy to work with right out of the delivery truck.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-17"
   },
   {
-    name: "T'Challa",
-    role: "Conservationist",
-    text: "Respect for the earth is evident in their sod. The root systems are robust and the grass is vibrant. It's the perfect foundation for our urban greening project.",
+    name: "Oliver Quinn",
+    role: "Landlord",
+    text: "Used FreshCut twice now for property turnovers. Great value for the quality, delivery was right on time, and the sod grabbed hold quickly even with minimal watering.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-02-25"
   },
   {
-    name: "Carol Danvers",
-    role: "Pilot",
-    text: "Fast delivery, high quality. I'm often away, so I need grass that's tough and low-maintenance. This fit the bill perfectly. Looks great even after a long trip.",
+    name: "Carol Daniels",
+    role: "Homeowner",
+    text: "I travel often for work so I needed something low-maintenance. Their drought-tolerant Zoysia is perfect. My neighbor checks on it once a week and it still looks thick and green.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-04"
   },
   {
-    name: "Barry Allen",
-    role: "Forensic Scientist",
-    text: "Everything happened so fast! From ordering to delivery, it was a blur of efficiency. The grass is high-quality and took root in record time. Excellent service.",
+    name: "Barry Knowles",
+    role: "Homeowner",
+    text: "The whole process was fast from start to finish. I measured, requested a quote, got a call the next morning, and had sod delivered two days later. Really well run operation.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-24"
   },
   {
-    name: "Oliver Queen",
-    role: "Business Owner",
-    text: "We needed our corporate office to look sharp. FreshCut Sod Farms hit the mark perfectly. Professional service and a product that really stands out.",
+    name: "Marcus DeVane",
+    role: "Landlord",
+    text: "Managing multiple properties means I need a supplier I can count on. FreshCut is exactly that — professional service, quality product, and a team that actually communicates.",
     rating: 5,
-    tag: "Commercial",
+    tag: "Residential",
     date: "2026-03-06"
   },
   {
-    name: "Hal Jordan",
-    role: "Test Pilot",
-    text: "Clear and bright green. It's a great product that stands up to the elements. I'm very happy with how it turned out. Definitely worth the investment.",
+    name: "Hal Perry",
+    role: "Homeowner",
+    text: "Good, honest grass. It grows in thick, handles our summers well, and has been worth every bit of the investment. Happy to recommend FreshCut to anyone in the area.",
     rating: 5,
     tag: "Residential",
     date: "2026-03-20"

@@ -238,7 +238,7 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                         "Use the calculator above to estimate your needs",
                         "Click 'Request This Sod Quote' to send us your details",
                         "Our farm team will contact you with a final quote",
-                        "Pay via Invoice or on Delivery (Card/Check/Cash)"
+                        "Pay via Invoice or on Delivery"
                       ].map((step, i) => (
                         <li key={i} className="flex items-start gap-3 text-sm font-medium text-primary/80">
                           <div className="h-6 w-6 rounded-full bg-primary text-white flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">{i + 1}</div>

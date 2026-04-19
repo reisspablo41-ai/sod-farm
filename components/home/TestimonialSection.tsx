@@ -7,25 +7,25 @@ import Link from "next/link";
 
 const TESTIMONIALS = [
   {
-    name: "Robert Henderson",
-    role: "Professional Landscaper",
-    text: "The 'Cut at Dawn' promise isn't just marketing. The hydration levels in their Bermuda are significantly higher than any big-box supplier. My clients' lawns establish 30% faster.",
-    rating: 5,
-    tag: "Landscaping Pros"
-  },
-  {
     name: "Sarah Jenkins",
     role: "Homeowner",
     text: "I was worried about ordering sod online, but the process was seamless. The calculator was spot on, and the delivery team placed the pallets exactly where I needed them.",
     rating: 5,
-    tag: "Estate Owners"
+    tag: "Homeowner"
   },
   {
-    name: "David Chen",
-    role: "Golf Course Manager",
-    text: "Purity and consistency are critical for us. FreshCut Sod Farms delivers the highest grade turfgrass with deep root systems that thrive in our local heat.",
+    name: "James Wilson",
+    role: "Landlord",
+    text: "I own five rental homes and FreshCut has become my go-to supplier. Needed 40 pallets on short notice for a property turnover and they came through — not a single dead patch.",
     rating: 5,
-    tag: "Commercial"
+    tag: "Landlord"
+  },
+  {
+    name: "Elena Rodriguez",
+    role: "Homeowner",
+    text: "The St. Augustine CitraBlue is stunning. My neighbors keep asking what my secret is. It handles the shade under my oak trees much better than what we had before.",
+    rating: 5,
+    tag: "Homeowner"
   }
 ];
 
@@ -41,13 +41,13 @@ export default function TestimonialSection() {
             <Reveal direction="left">
                <span className="text-secondary font-black uppercase tracking-[0.4em] text-xs mb-4 block">Social Proof</span>
                <h2 className="text-5xl md:text-7xl font-black text-primary italic uppercase tracking-tighter leading-none mb-6">
-                  Trusted by the <br />
-                  <span className="text-glow">Experts.</span>
+                  Loved by <br />
+                  <span className="text-glow">Homeowners.</span>
                </h2>
             </Reveal>
             <Reveal direction="left" delay={0.2}>
                <p className="text-xl text-muted-foreground leading-relaxed">
-                  Join hundreds of professional landscapers and homeowners who refuse to settle for anything less than farm-fresh turfgrass.
+                  Join hundreds of homeowners and landlords who refuse to settle for anything less than farm-fresh turfgrass.
                </p>
             </Reveal>
           </div>
